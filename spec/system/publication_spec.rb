@@ -15,7 +15,7 @@ RSpec.describe 'Fonction de gestion des publication', type: :system do
             click_on "Nouvelle publications"
             fill_in "publication[content]", with: "Le bonheur est ici"
             click_on "publier"
-
+ 
             expect(page).to have_content "Le bonheur est ici"
         end
 

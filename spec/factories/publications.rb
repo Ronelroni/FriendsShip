@@ -3,3 +3,4 @@ FactoryBot.define do
     content {"Vous êtes là"}
   end
 end
+ 

@@ -22,4 +22,4 @@ RSpec.describe Like, type: :model do
       expect(@like).to be_valid
     end
   end
-end
+end 

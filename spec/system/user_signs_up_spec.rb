@@ -15,7 +15,7 @@ RSpec.feature 'User signs up', type: :system do
   scenario 'with invalid data' do
     visit new_user_registration_path
 
-    click_button "S'inscrire"
+    click_button "S'inscrire" 
 
     expect(page).to have_text "E-mail doit être rempli(e)"
     expect(page).to have_text "Password doit être rempli(e)"

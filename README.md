@@ -19,15 +19,14 @@ Fonction de Commentaire
 
 ## Execution Procedure
 
-```bash
-$ git clone git@github.com:Ronelroni/Friends.git
-$ cd Friends
+
+$ git clone git@github.com:Ronelroni/FriendsShip.git
+$ cd FriendsShip
 $ bundle install
 $ rails db:create
 $ rails db:migrate
-$ rails db:seed
 $ rails s
-```
+
 
 ## Catalog Design
 

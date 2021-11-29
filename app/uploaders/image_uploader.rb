@@ -10,7 +10,7 @@ class ImageUploader < CarrierWave::Uploader::Base
       config.cache_storage = :file
     end 
   else
-    storage :file
+    storage :file 
   end
 
   # Override the directory where uploaded files will be stored.

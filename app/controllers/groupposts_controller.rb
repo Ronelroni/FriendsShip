@@ -13,7 +13,7 @@ class GrouppostsController < ApplicationController
         redirect_to group_path(@group.id)
       end
     end
-    
+     
     private
       def grouppost_params
         params.require(:grouppost).permit(:image, :image_cache, :content)

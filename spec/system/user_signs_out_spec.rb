@@ -14,3 +14,4 @@ RSpec.feature 'User signs out' do
     expect(page).to have_no_link 'Sign Out'
   end
 end
+ 

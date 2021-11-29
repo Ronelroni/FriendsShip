@@ -6,4 +6,4 @@ FactoryBot.define do
       is_admin {false}
     end
     
-  end
+  end 

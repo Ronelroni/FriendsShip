@@ -7,3 +7,4 @@ class CreateGroups < ActiveRecord::Migration[6.1]
     end
   end
 end
+ 

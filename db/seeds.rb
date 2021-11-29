@@ -19,7 +19,7 @@
             Comment.create!(user_id: user.id, publication_id: publication.id, content: content)
             
         end
-        
+         
     end
     
 end

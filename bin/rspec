@@ -6,3 +6,4 @@ rescue LoadError => e
 end
 require 'bundler/setup'
 load Gem.bin_path('rspec-core', 'rspec')
+ 

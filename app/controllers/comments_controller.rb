@@ -13,7 +13,7 @@ class CommentsController < ApplicationController
         format.js { redirect_to publication_path(@publication), notice: "Couldn't post..." }
       end
     end
-  end
+  end 
   def edit
     @comment = @publication.comments.find(params[:id])
     respond_to do |format|

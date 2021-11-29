@@ -14,7 +14,7 @@ fr:
         user: :activerecord.models.user  #g
 
       favorite:
-        publication: :activerecord.models.publication  #g
+        publication: :activerecord.models.publication  #g 
         user: :activerecord.models.user  #g
 
       like:

@@ -5,3 +5,4 @@ class PublicationTest < ActiveSupport::TestCase
   #   assert true
   # end
 end
+ 

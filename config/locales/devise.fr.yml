@@ -1,5 +1,5 @@
 fr:
-  activerecord:
+  activerecord: 
     attributes:
       user:
         confirmation_sent_at: Date d'envoi de la confirmation

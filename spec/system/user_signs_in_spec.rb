@@ -13,7 +13,7 @@ RSpec.feature 'User signs in', type: :system do
     expect(page).to have_text 'NOUVELLE PUBLICATION'
   end
 
-  scenario 'with invalid credentials' do
+  scenario 'with invalid credentials' do 
     user = build :user
 
     visit new_user_session_path

@@ -21,6 +21,6 @@ RSpec.describe 'Fonction de gestion des commentaire', type: :system do
             expect(page).to have_content "C'est la joie"
         end
 
-
+ 
     end
 end

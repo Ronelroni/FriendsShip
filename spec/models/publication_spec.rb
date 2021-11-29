@@ -14,3 +14,4 @@ RSpec.describe Publication, type: :model do
     
   end
 end
+ 

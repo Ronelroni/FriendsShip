@@ -16,7 +16,7 @@ RSpec.describe User, type: :model do
       @user = User.new(name: "Jordan", email: nil, password: nil)
       expect(@user).not_to be_valid
     end
-
+ 
     it "Création User echoué sans nom et email" do
       @user = User.new(name: nil, email: nil, password: "password")
       expect(@user).not_to be_valid
