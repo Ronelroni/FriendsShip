@@ -20,12 +20,17 @@ Fonction de Commentaire
 ## Execution Procedure
 
 
-$ git clone git@github.com:Ronelroni/FriendsShip.git
-$ cd FriendsShip
-$ bundle install
-$ rails db:create
-$ rails db:migrate
-$ rails s
+$ git clone git@github.com:Ronelroni/FriendsShip.git   
+
+$ cd FriendsShip  
+
+$ bundle install  
+
+$ rails db:create 
+
+$ rails db:migrate  
+
+$ rails s  
 
 
 ## Catalog Design
